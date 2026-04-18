@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
-import img from "../../assets/img_1.jpg";
+import img from "../../assets/img_1.JPG";
 import img2 from "../../assets/iabout.jpg";
 
 const Counter = ({ end, duration = 2, prefix = "", suffix = "", label }) => {

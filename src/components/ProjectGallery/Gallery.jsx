@@ -566,18 +566,18 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ZoomIn, ChevronLeft, ChevronRight, Play, Pause, Volume2, VolumeX, Maximize2 } from "lucide-react";
 
 // Import your gallery images and videos
-import img1 from "../../assets/img_1.jpg";
-import img2 from "../../assets/img_2.jpg";
-import img3 from "../../assets/img_3.jpg";
-import img4 from "../../assets/img_4.jpg";
-import img5 from "../../assets/img_5.jpg";
-import img6 from "../../assets/img_6.jpg";
-import img7 from "../../assets/img_7.jpg";
-import img8 from "../../assets/img_8.jpg";
-import img9 from "../../assets/img_9.jpg";
-import img10 from "../../assets/img_10.jpg";
-import img11 from "../../assets/img_11.jpg";
-import img12 from "../../assets/img_12.jpg";
+import img1 from "../../assets/img_1.JPG";
+import img2 from "../../assets/img_2.JPG";
+import img3 from "../../assets/Img_3.JPG";
+import img4 from "../../assets/img_4.JPG";
+import img5 from "../../assets/img_5.JPG";
+import img6 from "../../assets/img_6.JPG";
+import img7 from "../../assets/img_7.JPG";
+import img8 from "../../assets/img_8.JPG";
+import img9 from "../../assets/img_9.JPG";
+import img10 from "../../assets/img_10.JPG";
+import img11 from "../../assets/img_11.JPG";
+import img12 from "../../assets/img_12.JPG";
 // Commented out to prevent build errors since the large files are ignored in git
 // import project1 from "../../assets/project1.mp4";
 // import project2 from "../../assets/project2.mp4";

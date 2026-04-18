@@ -15,7 +15,7 @@ import {
 import img2 from "../../assets/main_img2.jpg";
 import img1 from "../../assets/main_img2.jpg";
 import img3 from "../../assets/main_img3.jpg";
-import img4 from "../../assets/img_4.jpg";
+import img4 from "../../assets/img_4.JPG";
 
 const sectionFade = {
   hidden: { opacity: 0, y: 40 },
