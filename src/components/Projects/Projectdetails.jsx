@@ -18,159 +18,159 @@ import img12 from "../../assets/img_12.jpg";
 const allProjects = [
   {
     id: 1,
-    title: "Saint Roque Church",
+    title: "St. Roque Church",
     image: img1,
-    description: "A complete RCC + finishing religious structure built with modern design and traditional elements.",
+    description: "Complete RCC church construction combining modern engineering with traditional architectural elements.",
     category: "Religious",
-    location: "Mumbai, Maharashtra",
+    location: "Vasai, Maharashtra",
     year: "2023",
     scope: "Complete Construction",
     status: "completed",
     progress: 100,
-    features: ["Modern Design", "Traditional Elements", "RCC Structure", "Complete Finishing"]
+    features: ["RCC Structure", "Traditional Architecture", "Modern Design", "Full Finishing"]
   },
   {
     id: 2,
-    title: "Saint Paul Church",
+    title: "St. Paul Church",
     image: img2,
-    description: "Renovation and new structural extension including interior works and architectural design.",
+    description: "Renovation and structural extension including upgraded interiors and architectural redesign.",
     category: "Religious",
-    location: "Pune, Maharashtra",
+    location: "Virar, Maharashtra",
     year: "2022",
     scope: "Renovation & Extension",
     status: "completed",
     progress: 100,
-    features: ["Renovation", "Structural Extension", "Interior Works", "Architectural Design"]
+    features: ["Renovation", "Structural Expansion", "Interior Works", "Architectural Upgrade"]
   },
   {
     id: 3,
-    title: "Saint Mother Teresa Church",
+    title: "Mother Teresa Church",
     image: img3,
-    description: "A large church project focusing on durability, structural integrity and aesthetic design.",
+    description: "Large-scale church construction emphasizing durability, structural strength, and aesthetic appeal.",
     category: "Religious",
-    location: "Goa",
+    location: "Vasai-Virar, Maharashtra",
     year: "2023",
     scope: "New Construction",
     status: "completed",
     progress: 100,
-    features: ["Large Structure", "Durability Focus", "Structural Integrity", "Aesthetic Design"]
+    features: ["Large Structure", "High Durability", "Strong RCC Framework", "Aesthetic Finish"]
   },
   {
     id: 4,
     title: "Holy Mary Convent",
     image: img4,
-    description: "Construction of convent facility including classrooms, dormitory and prayer hall.",
+    description: "Institutional building including classrooms, dormitory facilities, and a prayer hall.",
     category: "Institutional",
     location: "Bangalore, Karnataka",
     year: "2022",
     scope: "Complete Construction",
     status: "completed",
     progress: 100,
-    features: ["Classrooms", "Dormitory", "Prayer Hall", "Complete Facility"]
+    features: ["Classrooms", "Dormitory", "Prayer Hall", "Full Facility"]
   },
   {
     id: 5,
     title: "Nirmala Niketan College",
     image: img5,
-    description: "A complete educational block including labs, classrooms, office rooms and finishing works.",
+    description: "Educational infrastructure project with laboratories, classrooms, and administrative spaces.",
     category: "Educational",
     location: "Mumbai, Maharashtra",
     year: "2021",
     scope: "Academic Block",
     status: "completed",
     progress: 100,
-    features: ["Labs", "Classrooms", "Office Rooms", "Finishing Works"]
+    features: ["Labs", "Classrooms", "Office Spaces", "Interior Finishing"]
   },
   {
     id: 6,
     title: "Gangangaon Junior College",
     image: img6,
-    description: "Turnkey construction of junior college with structural RCC work and internal finishing.",
+    description: "Turnkey construction of junior college with RCC framework and interior finishing works.",
     category: "Educational",
     location: "Nashik, Maharashtra",
     year: "2023",
     scope: "Turnkey Project",
     status: "ongoing",
     progress: 75,
-    features: ["Turnkey Construction", "RCC Work", "Internal Finishing", "Educational Facility"]
+    features: ["Turnkey Execution", "RCC Work", "Interior Finishing", "Educational Infrastructure"]
   },
   {
     id: 7,
     title: "Jeevan Jal Hospital",
     image: img7,
-    description: "Hospital construction with OPD, IPD, emergency ward, RCC framework and interior units.",
+    description: "Healthcare facility construction including OPD, IPD, emergency units, and structural RCC work.",
     category: "Healthcare",
     location: "Delhi",
     year: "2022",
     scope: "Healthcare Facility",
     status: "ongoing",
     progress: 60,
-    features: ["OPD Ward", "IPD Ward", "Emergency Ward", "RCC Framework"]
+    features: ["OPD", "IPD", "Emergency Ward", "RCC Framework"]
   },
   {
     id: 8,
     title: "Agrawal Residential Complex",
     image: img8,
-    description: "High-rise residential complex with parking area, amenities and modern layout.",
+    description: "High-rise residential project with modern amenities, parking, and optimized layout design.",
     category: "Residential",
     location: "Hyderabad, Telangana",
     year: "2023",
     scope: "High-rise Complex",
     status: "ongoing",
     progress: 85,
-    features: ["High-rise", "Parking Area", "Modern Amenities", "Residential Complex"]
+    features: ["High-rise", "Parking", "Modern Amenities", "Residential Units"]
   },
   {
     id: 9,
     title: "Ashirwad Residential Complex",
     image: img9,
-    description: "Turnkey construction of premium residential building with RCC structure and interior finishing.",
+    description: "Premium residential building constructed with RCC structure and high-quality interior finishing.",
     category: "Residential",
     location: "Chennai, Tamil Nadu",
     year: "2022",
     scope: "Premium Residential",
     status: "completed",
     progress: 100,
-    features: ["Premium Residential", "RCC Structure", "Interior Finishing", "Turnkey Project"]
+    features: ["Premium Units", "RCC Structure", "Interior Finishing", "Turnkey Delivery"]
   },
   {
     id: 10,
-    title: "St. Mathews Tamil Church",
+    title: "St. Mathews Church",
     image: img10,
-    description: "Historic and modern mixed architecture structure including interior work.",
+    description: "Architectural blend of historic and modern design with complete interior development.",
     category: "Religious",
     location: "Kochi, Kerala",
     year: "2021",
     scope: "Architectural Blend",
     status: "completed",
     progress: 100,
-    features: ["Historic Architecture", "Modern Design", "Mixed Style", "Interior Work"]
+    features: ["Historic Design", "Modern Elements", "Mixed Architecture", "Interior Work"]
   },
   {
     id: 11,
     title: "Ashirwad Tower B",
     image: img11,
-    description: "Second phase of residential complex with enhanced amenities and modern design.",
+    description: "Phase 2 of residential complex with upgraded amenities and contemporary design approach.",
     category: "Residential",
     location: "Chennai, Tamil Nadu",
     year: "2023",
     scope: "Phase 2 Construction",
     status: "ongoing",
     progress: 45,
-    features: ["Phase 2", "Enhanced Amenities", "Modern Design", "Residential Complex"]
+    features: ["Phase 2", "Modern Amenities", "Enhanced Design", "Residential Units"]
   },
   {
     id: 12,
     title: "St. Thomas Church Hall",
     image: img12,
-    description: "Community hall extension with modern facilities and traditional architectural elements.",
+    description: "Community hall extension with modern infrastructure and traditional architectural influence.",
     category: "Religious",
     location: "Bangalore, Karnataka",
     year: "2022",
     scope: "Hall Extension",
     status: "ongoing",
     progress: 30,
-    features: ["Community Hall", "Modern Facilities", "Traditional Elements", "Extension Work"]
+    features: ["Community Hall", "Modern Facilities", "Traditional Style", "Extension"]
   }
 ];
 
@@ -333,8 +333,8 @@ export default function ProjectDetails() {
                 {/* Status Badge Only - Category Badge Removed */}
                 <div className="absolute bottom-4 left-6">
                   <span className={`px-4 py-2 rounded-full text-sm font-semibold ${selectedProject.status === "completed"
-                      ? "bg-green-500 text-white"
-                      : "bg-blue-500 text-white"
+                    ? "bg-green-500 text-white"
+                    : "bg-blue-500 text-white"
                     }`}>
                     {selectedProject.status === "completed" ? "Completed" : "Ongoing"}
                   </span>
