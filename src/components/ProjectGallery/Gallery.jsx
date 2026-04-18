@@ -584,9 +584,9 @@ import img12 from "../../assets/img_12.JPG";
 // import project3 from "../../assets/project3.mp4";
 
 // Placeholder videos
-const project1 = "https://www.w3schools.com/html/mov_bbb.mp4";
-const project2 = "https://www.w3schools.com/html/mov_bbb.mp4";
-const project3 = "https://www.w3schools.com/html/mov_bbb.mp4";
+const project1 = "https://www.youtube.com/embed/N-f4PKNkej8?si=4PNI-7JXRU5-A8Nc";
+const project2 = "https://www.youtube.com/embed/N-f4PKNkej8?si=0uDwtJfHJU63gMDl&end=10";
+const project3 = "https://www.youtube.com/embed/N-f4PKNkej8?si=4PNI-7JXRU5-A8Nc"; // Defaulting video 3 to video 1
 const highlightVideos = [
   {
     id: "video1",
@@ -917,52 +917,14 @@ export default function Gallery() {
                 <X size={24} />
               </motion.button>
 
-              {/* Video Controls */}
-              <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-20 
-                             bg-black/60 backdrop-blur-sm rounded-full px-6 py-3 flex items-center gap-4">
-                {/* Play/Pause */}
-                <motion.button
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                  className="text-white"
-                  onClick={togglePlayPause}
-                >
-                  {isPlaying ? <Pause size={24} /> : <Play size={24} />}
-                </motion.button>
-
-                {/* Volume */}
-                <motion.button
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                  className="text-white"
-                  onClick={toggleMute}
-                >
-                  {isMuted ? <VolumeX size={24} /> : <Volume2 size={24} />}
-                </motion.button>
-
-                {/* Fullscreen */}
-                <motion.button
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                  className="text-white"
-                  onClick={toggleFullscreen}
-                >
-                  <Maximize2 size={24} />
-                </motion.button>
-              </div>
-
-              {/* Video Player */}
-              <div className="flex items-center justify-center h-full p-8">
-                <video
-                  ref={videoRef}
-                  src={selectedVideo.video}
-                  className="max-w-full max-h-[70vh] object-contain rounded-xl"
-                  controls={false}
-                  autoPlay
-                  muted={isMuted}
-                  onPlay={() => setIsPlaying(true)}
-                  onPause={() => setIsPlaying(false)}
-                  onEnded={() => setIsPlaying(false)}
+              {/* Video Player - Changed to YouTube iFrame */}
+              <div className="flex items-center justify-center h-full p-8 w-full mt-10">
+                <iframe
+                  src={`${selectedVideo.video}&autoplay=1`}
+                  className="w-full h-[60vh] max-w-4xl object-contain rounded-xl shadow-lg border-none"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  title={selectedVideo.title}
                 />
               </div>
 
