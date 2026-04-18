@@ -1,5 +1,5 @@
 import Projectdetails from "../components/Projects/Projectdetails";
-import ProjectHome from "../components/Projects/Projecthome";
+import ProjectHome from "../components/Projects/ProjectHome";
 
 const Projects = () => {
   return (
